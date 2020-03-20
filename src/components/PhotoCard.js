@@ -4,6 +4,7 @@ import Info from "./info";
 import styled from "styled-components";
 
 
+
 const SpaceImg = styled.img`
     width: 90%;
     height: auto;
@@ -18,7 +19,7 @@ const SpaceCard = styled.div`
     align-items:center;
     justify-content:space-between;
     padding-bottom:20px;
-    background:lightgray;
+    background: #f9f8f6;
 `;
 
 export default function NASACard(){
@@ -38,7 +39,7 @@ export default function NASACard(){
 
     return(
         <SpaceCard className = "photo-card">
-
+            
             <SpaceImg src = {photoData.url} className = "space-img" alt = "spaceimg"/>
 
             <Info
